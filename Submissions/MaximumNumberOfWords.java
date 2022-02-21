@@ -12,7 +12,7 @@ public class MaximumNumberOfWords {
         int counter = 0;
         for (int i = 0; i < sentences.length; i++) {
             String[] words = sentences[i].split(" ");
-            if (words.length>counter){
+            if (words.length > counter) {
                 counter = words.length;
             }
         }
