@@ -8,12 +8,12 @@ public class ShuffleArray {
     }
 
     public static int[] shuffle(int[] nums, int n) {
-        int [] newArr = new int[nums.length];
-        int j=0;
-        for (int i=0;i<n;i++){
+        int[] newArr = new int[nums.length];
+        int j = 0;
+        for (int i = 0; i < n; i++) {
 
             newArr[j++] = nums[i];
-            newArr[j++] = nums[i+n];
+            newArr[j++] = nums[i + n];
         }
         return newArr;
     }
