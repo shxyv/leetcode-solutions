@@ -8,9 +8,9 @@ public class MinimumSumOfFourDigits {
     }
 
     public static int minimumSum(int num) {
-        char [] digitChar = (""+num).toCharArray();
+        char[] digitChar = ("" + num).toCharArray();
         Arrays.sort(digitChar);
-        return Integer.parseInt((""+digitChar[0]+digitChar[2])) + Integer.parseInt((""+digitChar[1]+digitChar[3]));
+        return Integer.parseInt(("" + digitChar[0] + digitChar[2])) + Integer.parseInt(("" + digitChar[1] + digitChar[3]));
     }
 
 
